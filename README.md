@@ -40,7 +40,7 @@ You can click the Preview link to take a look at your changes.
  - <a href="https://www.youtube.com/watch?v=KqJgwVREeEQ"><img src="https://cluelesstech.github.io/CluelessTech/youtube-logo-2431.png" width="20px" height="20px" ></img></a> [Grocery List Application Using SQLite Database Complete Video ](https://www.youtube.com/watch?v=KqJgwVREeEQ)
 
  - <a href="https://www.youtube.com/watch?v=Pv_AGJZbvTQ&list=PLOOOw3vQEjTe7I6ZN2-VLLPkhDsDaJLnDL"><img src="https://cluelesstech.github.io/CluelessTech/youtube-logo-2431.png" width="20px" height="20px" ></img></a> [Grocery List Application - Playlist ](https://www.youtube.com/watch?v=Pv_AGJZbvTQ&list=PLOOOw3vQEjTe7I6ZN2-VLLPkhDsDaJLnDL)
- - 
+ 
 
  ```MySQL CURD Operation in Android Studio```
  
