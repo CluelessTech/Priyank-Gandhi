@@ -1,47 +1,112 @@
-- 👋 Hi, I’m @CluelessTech
-- 👀 I’m interested in developing software and applications
-- 🌱 I’m currently learning Java, Spring framework, Android and Flutter
-- 📫 How to reach me cluelesstech05@gmail.com
+<!DOCTYPE html>
+<html>
 
-<!---
-CluelessTech/CluelessTech is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+  
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A Selft taught flutter developer, technical writer and open source contributor.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="folio">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>Priyank Gandhi</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    .lds-ripple {
+      display: inline-block;
+      position: relative;
+      width: 80px;
+      height: 80px;
+    }
+
+    .lds-ripple div {
+      background-color: #000000;
+      position: absolute;
+      border: 4px solid #fff;
+      opacity: 1;
+      border-radius: 50%;
+      animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    }
+
+    .lds-ripple div:nth-child(2) {
+      animation-delay: -0.5s;
+    }
+
+    @keyframes lds-ripple {
+      0% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+      }
+
+      100% {
+        top: 0px;
+        left: 0px;
+        width: 72px;
+        height: 72px;
+        opacity: 0;
+      }
+    }
+
+    .container {
+      height: 100%;
+    }
+
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+  </style>
+
+</head>
+
+<body>
 
 
-   ```Basic of Android Studio```
- 
- - <a href="https://www.youtube.com/watch?v=494lTBklwpY"><img src="https://cluelesstech.github.io/CluelessTech/youtube-logo-2431.png" width="20px" height="20px" ></img></a> [Android Studio Setup and Creating first android application ](https://www.youtube.com/watch?v=494lTBklwpY)
- 
- - <a href="https://www.youtube.com/watch?v=cIFjyJIzqy4"><img src="https://cluelesstech.github.io/CluelessTech/youtube-logo-2431.png" width="20px" height="20px" ></img></a> [Creating a Tip calculator App in Android Studio ](https://www.youtube.com/watch?v=cIFjyJIzqy4)
- 
- - <a href="https://www.youtube.com/watch?v=KEhxzHqw6Qo"><img src="https://cluelesstech.github.io/CluelessTech/youtube-logo-2431.png" width="20px" height="20px" ></img></a> [Creating simple music player App using Android Studio ](https://www.youtube.com/watch?v=KEhxzHqw6Qo)
- 
- - <a href="https://www.youtube.com/watch?v=TuOEKp4lEts"><img src="https://cluelesstech.github.io/CluelessTech/youtube-logo-2431.png" width="20px" height="20px" ></img></a>[Implementing Recycler View in Android Studio ](https://www.youtube.com/watch?v=TuOEKp4lEts)
- 
- - <a href="https://www.youtube.com/watch?v=LntE7bciv34"><img src="https://cluelesstech.github.io/CluelessTech/youtube-logo-2431.png" width="20px" height="20px" ></img></a> [Using Image View in Android Studio](https://www.youtube.com/watch?v=LntE7bciv34)
- 
- - <a href="https://www.youtube.com/watch?v=XKaRL01XRtk"><img src="https://cluelesstech.github.io/CluelessTech/youtube-logo-2431.png" width="20px" height="20px" ></img></a>[Using Different Widget in Android Studio ](https://www.youtube.com/watch?v=XKaRL01XRtk)
- 
- - <a href="https://www.youtube.com/watch?v=wHykTzx6cmM"><img src="https://cluelesstech.github.io/CluelessTech/youtube-logo-2431.png" width="20px" height="20px" ></img></a>[ Using Shared Preferences in Android Studio ](https://www.youtube.com/watch?v=wHykTzx6cmM)
- 
+  <div class="container">
+    <div class="center">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=934046758');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
 
-  ```Calories Count Application Using SQLite Database in Android Studio```
- 
- - <a href="https://www.youtube.com/watch?v=r5GAs9fvAes"><img src="https://cluelesstech.github.io/CluelessTech/youtube-logo-2431.png" width="20px" height="20px" ></img></a> [Calories Count Application Using SQLite Database Complete Video ](https://www.youtube.com/watch?v=r5GAs9fvAes)
-
- - <a href="https://www.youtube.com/playlist?list=PLOOOw3vQEjTdbA2vgJK2yn1XhiyJ0HNcP"><img src="https://cluelesstech.github.io/CluelessTech/youtube-logo-2431.png" width="20px" height="20px" ></img></a> [Calories Count Application - Playlist ](https://www.youtube.com/playlist?list=PLOOOw3vQEjTdbA2vgJK2yn1XhiyJ0HNcP)
- 
- 
-  ```Grocery List Application Using SQLite Database in Android Studio```
- 
- 
- - <a href="https://www.youtube.com/watch?v=KqJgwVREeEQ"><img src="https://cluelesstech.github.io/CluelessTech/youtube-logo-2431.png" width="20px" height="20px" ></img></a> [Grocery List Application Using SQLite Database Complete Video ](https://www.youtube.com/watch?v=KqJgwVREeEQ)
-
- - <a href="https://www.youtube.com/watch?v=Pv_AGJZbvTQ&list=PLOOOw3vQEjTe7I6ZN2-VLLPkhDsDaJLnDL"><img src="https://cluelesstech.github.io/CluelessTech/youtube-logo-2431.png" width="20px" height="20px" ></img></a> [Grocery List Application - Playlist ](https://www.youtube.com/watch?v=Pv_AGJZbvTQ&list=PLOOOw3vQEjTe7I6ZN2-VLLPkhDsDaJLnDL)
- 
-
- ```MySQL CURD Operation in Android Studio```
- 
- - <a href="https://www.youtube.com/watch?v=Ba7NMb42lc8&list=PLOOOw3vQEjTf1iSIIgXfmoccZd2mFMyYF"><img src="https://cluelesstech.github.io/CluelessTech/youtube-logo-2431.png" width="20px" height="20px" ></img></a> [MySQL CURD Operation Playlist ](https://www.youtube.com/watch?v=Ba7NMb42lc8&list=PLOOOw3vQEjTf1iSIIgXfmoccZd2mFMyYF)
- 
+</html>
